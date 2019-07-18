@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidPatternPractice", "SolidPatternPractice\SolidPatternPractice.csproj", "{8B72F223-9D5F-4714-B260-C59DF6C6E464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestModule", "TestModule\TestModule.csproj", "{AA184796-0A32-49EC-AF80-525FF0D47BB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B72F223-9D5F-4714-B260-C59DF6C6E464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B72F223-9D5F-4714-B260-C59DF6C6E464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B72F223-9D5F-4714-B260-C59DF6C6E464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B72F223-9D5F-4714-B260-C59DF6C6E464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA184796-0A32-49EC-AF80-525FF0D47BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA184796-0A32-49EC-AF80-525FF0D47BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA184796-0A32-49EC-AF80-525FF0D47BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA184796-0A32-49EC-AF80-525FF0D47BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7427E6C8-ED7F-40C4-A486-5EF16652AF52}
+	EndGlobalSection
+EndGlobal
