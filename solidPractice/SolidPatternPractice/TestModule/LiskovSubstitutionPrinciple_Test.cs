@@ -42,5 +42,6 @@ namespace TestModule
             yield return new object[] { new Local(), "set from local;" };
         }
 
+
     }
 }
