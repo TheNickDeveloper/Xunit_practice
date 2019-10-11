@@ -26,19 +26,6 @@ namespace TestModule
             Assert.Equal(expectedResult, actualResult);
         }
 
-
-        //// input parameter not support class
-        //[Theory]
-        //[InlineData("t1")]
-        //[InlineData("get from global;set from global;")]
-        //[InlineData("error")]
-        //public void SimpleGroupDataTest(string expectedResult)
-        //{
-        //    var t = new Global();
-        //    var actualResult = t.PrintFunction();
-        //    Assert.Equal(expectedResult, actualResult);
-        //}
-
         // best practice for group data test
         [Theory]
         [MemberData(nameof(GetTestData))]
